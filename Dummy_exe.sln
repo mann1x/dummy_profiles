@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dummy_exe", "Dummy_exe.csproj", "{79DDF59C-5EBB-45FD-88D3-D181A689AF8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90E0DD7E-657F-47F0-9A86-1026F80D947D}"
+	ProjectSection(SolutionItems) = preProject
+		..\dummy_profiles\dummy_profiles.ahk = ..\dummy_profiles\dummy_profiles.ahk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dummy_exes", "dummy_exes", "{C6681FED-0989-4556-9DFC-E5A9C09FEBB9}"
+	ProjectSection(SolutionItems) = preProject
+		..\dummy_profiles\Release\dummy_exes\dummy_profiles.example.txt = ..\dummy_profiles\Release\dummy_exes\dummy_profiles.example.txt
+		..\dummy_profiles\Release\dummy_exes\dummy_profiles.txt = ..\dummy_profiles\Release\dummy_exes\dummy_profiles.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Dummy EXE for profile loaders
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79DDF59C-5EBB-45FD-88D3-D181A689AF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DDF59C-5EBB-45FD-88D3-D181A689AF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DDF59C-5EBB-45FD-88D3-D181A689AF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DDF59C-5EBB-45FD-88D3-D181A689AF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6681FED-0989-4556-9DFC-E5A9C09FEBB9} = {90E0DD7E-657F-47F0-9A86-1026F80D947D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9C58CBF-0CA5-4068-BEC8-1978635A60E7}
+	EndGlobalSection
+EndGlobal
