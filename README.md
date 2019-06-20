@@ -8,10 +8,12 @@ Run the AutoHotkey script or compile it, put the dummy_exe.exe in a subfolder "d
 
 ## Usage
 
-Create a file "dummy_profiles.txt" in the folder "dummy_exes", one window title per line.
+Create a file "dummy_profiles.txt" in the folder "dummy_exes", one window title per line (eg. State of Decay 2).
 Check there are no trailing spaces.
 
-The script will copy the dummy_exe.exe into a new exe for each "profile".
+In the release zip file a txt file with some examples is included: dummy_profiles.example.txt
+
+The script will copy the dummy_exe.exe into a new exe for each "profile" (eg. State_of_Decay_2.exe).
 
 Now in your profile loader associate the profile to this executable.
 
